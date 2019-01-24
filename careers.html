@@ -26,6 +26,9 @@
       <link rel="stylesheet" href="assets/vendor/typedjs/typed.css">
       <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
       <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+
+      <script src="https://unpkg.com/i18next/i18next.js"></script>
+
     
       <!-- CSS Unify -->
       <link rel="stylesheet" href="assets/css/unify-core.css">
@@ -38,10 +41,6 @@
     
     <body>
       <main>
-    
-    
-    
-   
                 <!-- Header -->
                 <header id="js-header" class="u-header u-header--static">
                   <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
@@ -177,8 +176,11 @@
                   </div>
                 </header>
                 <!-- End Header -->
-    <iframe class="lazyload" src="https://csbio.workable.com/" width="100%" height="1700vh">
-    </iframe>
+
+
+                <div style="display: flex; justify-content: center;">
+                  <img src="assets/img/career/20180801114416_1260.jpg" >
+                </div>
         <!-- Footer -->
         <div id="contacts-section" class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
           <div class="container">
@@ -192,6 +194,19 @@
                 <p>CSBio is a leading peptide and peptide synthesizer manufacturing company located on the edge of Silicon Valley in Menlo Park, California. Since 1993.</p>
               </div>
               <!-- End Footer Content -->
+
+
+
+              <div style="height: 100px">
+                <button onclick="i18next.changeLanguage('en')">
+                english
+                </button>
+                <button onclick="i18next.changeLanguage('de')">
+                german
+                </button>
+                <div id="output" />
+              </div>
+              
     
               <!-- Footer Content -->
     
@@ -387,6 +402,44 @@
               $.HSCore.components.HSTabs.init('[role="tablist"]');
             }, 200);
           });
+
+
+
+          // import i18next from 'i18next';
+
+          i18next.init({
+            lng: 'en',
+            debug: true,
+            resources: {
+              en: {
+                translation: {
+                  "key": "hello world"
+                }
+              },
+              de: {
+                translation: {
+                  "key": "hello welt"
+                }
+              }
+            }
+          }, function(err, t) {
+            // init set content
+            updateContent();
+          });
+
+          function updateContent() {
+            document.getElementById('output').innerHTML = i18next.t('key');
+          }
+
+          function changeLng(lng) {
+            i18next.changeLanguage(lng);
+          }
+
+          i18next.on('languageChanged', () => {
+            updateContent();
+          });
+
+
       </script>
     
     
