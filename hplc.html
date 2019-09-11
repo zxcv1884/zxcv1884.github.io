@@ -56,8 +56,26 @@
     <script src="https://unpkg.com/i18next/i18next.js"></script>
   
   </head>
-  <style>html{scroll-behavior:smooth}</style>
-
+  <style>
+      html{scroll-behavior:smooth}
+      @media (min-width: 975px) {
+          #footerName {
+              text-align: center;
+              margin-top: 0.6rem !important;
+          }
+      }
+      @media (max-width: 750px) {
+          #footerName {
+              text-align: center;
+              margin-top: 0.6rem !important;
+          }
+      }
+      @media(max-width: 900px){
+          .changeLanguage{
+              width: 100vw;
+          }
+      }
+  </style>
   <body>
     <main>
       <!-- Header -->
@@ -244,13 +262,17 @@
                         <!-- End Navigation -->
                     </div>
 
-                    <a onclick="i18next.changeLanguage('zh')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
-                        中文版
-                    </a>
-                    <a onclick="i18next.changeLanguage('en')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
-                        English
-                    </a>
-                    &nbsp &nbsp
+                    <div class="changeLanguage">
+                        <a onclick="i18next.changeLanguage('zh')"
+                           class="pull-right btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
+                            中文版
+                        </a>
+                        <a onclick="i18next.changeLanguage('en')"
+                           class="pull-right btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
+                            English
+                        </a>
+                        &nbsp &nbsp
+                    </div>
                 </nav>
             </div>
         </header>
@@ -485,7 +507,9 @@
                 <i class="fa fa-map-marker"></i>
               </span>
             </div>
-            <p class="mb-0">希施生物科技（上海）有限公司</p>
+              <div class="align-middle">
+                  <p class="mb-0" id="footerName">希施生物科技（上海）有限公司</p>
+              </div>
           </div>
           <!-- End Location -->
 
@@ -496,7 +520,10 @@
                 <i class="fa fa-phone"></i>
               </span>
             </div>
-            <p class="mb-0"> <br> (+021) 5078 1655<br> </p>
+              <div class="align-middle">
+                  <p class="mb-0" style="text-align: center;margin-top: 0.6rem !important; ">(+021)
+                      5078 1655<br></p>
+              </div>
           </div>
           <!-- End Phone -->
 

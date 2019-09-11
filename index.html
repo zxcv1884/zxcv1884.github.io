@@ -2,781 +2,849 @@
 <html lang="zh">
 
 <head>
-  <!-- Title -->
- <title>CSBio Home</title>
-  <!-- Required Meta Tags Always Come First -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Title -->
+    <title>CSBio Home</title>
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="assets/img/favicon.png">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet'>
-  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
-  <!-- CSS Global Icons -->
-  <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
-  <link rel="stylesheet" href="assets/vendor/icon-etlinefont/style.css">
-  <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
-  <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
-  <link rel="stylesheet" href="assets/vendor/animate.css">
-  <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
-  <link rel="stylesheet" href="assets/vendor/typedjs/typed.css">
-  <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
-  <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <!-- CSS Global Icons -->
+    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/vendor/icon-etlinefont/style.css">
+    <link rel="stylesheet" href="assets/vendor/icon-line-pro/style.css">
+    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="assets/vendor/animate.css">
+    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="assets/vendor/typedjs/typed.css">
+    <link rel="stylesheet" href="assets/vendor/hs-megamenu/src/hs.megamenu.css">
+    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
 
-  <!-- CSS Unify -->
-  <link rel="stylesheet" href="assets/css/unify-core.css">
-  <link rel="stylesheet" href="assets/css/unify-components.css">
-  <link rel="stylesheet" href="assets/css/unify-globals.css">
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="assets/css/unify-core.css">
+    <link rel="stylesheet" href="assets/css/unify-components.css">
+    <link rel="stylesheet" href="assets/css/unify-globals.css">
 
-  <!-- CSS Customization -->
-  <link rel="stylesheet" href="assets/css/custom.css">
-  <script src="assets/vendor/lazysizes.min.js"></script>
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="assets/vendor/lazysizes.min.js"></script>
 
-  <script src="https://unpkg.com/i18next/i18next.js"></script>
+    <script src="https://unpkg.com/i18next/i18next.js"></script>
 
 </head>
-<style>html{scroll-behavior:smooth}</style>
+<style>
+    html {
+        scroll-behavior: smooth
+    }
+
+    @media (min-width: 975px) {
+        #footerName {
+            text-align: center;
+            margin-top: 0.6rem !important;
+        }
+    }
+
+    @media (max-width: 750px) {
+        #footerName {
+            text-align: center;
+            margin-top: 0.6rem !important;
+        }
+    }
+
+    @media (max-width: 900px) {
+        .changeLanguage {
+            width: 100vw;
+        }
+    }
+</style>
 
 <body>
-  <main>
-
+<main>
 
 
     <!-- Header -->
     <header id="js-header" class="u-header u-header--static">
-      <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
-        <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
-          <div class="container">
-            <!-- Responsive Toggle Button -->
-            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+        <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
+            <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
+                <div class="container">
+                    <!-- Responsive Toggle Button -->
+                    <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0"
+                            type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar"
+                            data-toggle="collapse" data-target="#navBar">
               <span class="hamburger hamburger--slider">
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
               </span>
               </span>
-            </button>
-            <!-- End Responsive Toggle Button -->
+                    </button>
+                    <!-- End Responsive Toggle Button -->
 
-            <!-- Logo -->
-            <a href="index.html" class="navbar-brand d-flex">
-                <img width="46px" height="46px" src="assets/img/favicon.png">
-                <h1 id="test1" class="g-font-weight-200"></h1> 
-            </a>
-              <!-- End Logo -->
+                    <!-- Logo -->
+                    <a href="index.html" class="navbar-brand d-flex">
+                        <img width="46px" height="46px" src="assets/img/favicon.png">
+                        <h1 id="test1" class="g-font-weight-200"></h1>
+                    </a>
+                    <!-- End Logo -->
 
-            <!-- Navigation -->
-            <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
-              <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
-                <!-- Home -->
-                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                  <a id="nav1" href="index.html" class="nav-link g-py-7 g-px-0"></a>
-                </li>
-                <!-- End Home -->
+                    <!-- Navigation -->
+                    <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg"
+                         id="navBar">
+                        <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+                            <!-- Home -->
+                            <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                                <a id="nav1" href="index.html" class="nav-link g-py-7 g-px-0"></a>
+                            </li>
+                            <!-- End Home -->
 
-                <!-- Peptides -->
-                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav2-1" href="peptides.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+                            <!-- Peptides -->
+                            <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"
+                                data-animation-out="fadeOut">
+                                <a id="nav2-1" href="peptides.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true"
+                                   aria-expanded="false" aria-controls="nav-submenu--features"></a>
 
-                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-                    <!-- Peptides - Commercial -->
-                  <li class="dropdown-item ">
-                      <a id="nav2-2" class="nav-link" href="peptides.html#gmp"></a>
-                  </li>
-                    <li class="dropdown-item ">
-                      <a id="nav2-3" class="nav-link" href="peptides.html#commercial"></a>
-                    </li>
-                    <!-- End Peptides - Commercial -->
-                    <!-- Peptides - Clinical -->
-                    <li class="dropdown-item ">
-                      <a id="nav2-4" class="nav-link" href="peptides.html#clinical"></a>
-                    </li>
-                    <!-- End Peptides - Clinical -->
-                    <!-- Peptides -  custom-->
-                    <li class="dropdown-item ">
-                      <a id="nav2-5" class="nav-link" href="peptides.html#custom"></a>
-                    </li>
-                    <!-- End Peptides - custom -->
+                                <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling"
+                                    id="nav-submenu--features" aria-labelledby="nav-link--features">
+                                    <!-- Peptides - Commercial -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav2-2" class="nav-link" href="peptides.html#gmp"></a>
+                                    </li>
+                                    <li class="dropdown-item ">
+                                        <a id="nav2-3" class="nav-link" href="peptides.html#commercial"></a>
+                                    </li>
+                                    <!-- End Peptides - Commercial -->
+                                    <!-- Peptides - Clinical -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav2-4" class="nav-link" href="peptides.html#clinical"></a>
+                                    </li>
+                                    <!-- End Peptides - Clinical -->
+                                    <!-- Peptides -  custom-->
+                                    <li class="dropdown-item ">
+                                        <a id="nav2-5" class="nav-link" href="peptides.html#custom"></a>
+                                    </li>
+                                    <!-- End Peptides - custom -->
 
-                    <!-- Peptides -  pet-->
-                    <li class="dropdown-item ">
-                      <a id="nav2-6" class="nav-link" href="peptides.html#analytical"></a>
-                    </li>
-                    <!-- End Peptides - pet -->
+                                    <!-- Peptides -  pet-->
+                                    <li class="dropdown-item ">
+                                        <a id="nav2-6" class="nav-link" href="peptides.html#analytical"></a>
+                                    </li>
+                                    <!-- End Peptides - pet -->
 
-                    <!-- Peptides -  cosmetic-->
-                    <li class="dropdown-item ">
-                      <a id="nav2-7" class="nav-link" href="peptides.html#custompet"></a>
-                    </li>
-                    <!-- End Peptides - cosmetic -->
+                                    <!-- Peptides -  cosmetic-->
+                                    <li class="dropdown-item ">
+                                        <a id="nav2-7" class="nav-link" href="peptides.html#custompet"></a>
+                                    </li>
+                                    <!-- End Peptides - cosmetic -->
+                                </ul>
+                            </li>
+                            <!-- End Peptides -->
+                            <!-- Peptide Synthesizer -->
+                            <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"
+                                data-animation-out="fadeOut">
+                                <a id="nav3-1" href="synthesizer.html" class="nav-link g-py-7 g-px-0"
+                                   aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
 
-                  </ul>
-                </li>
-                <!-- End Peptides -->
- <!-- Peptide Synthesizer -->
- <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-    <a id="nav3-1" href="synthesizer.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+                                <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling"
+                                    id="nav-submenu--features" aria-labelledby="nav-link--features">
 
-    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-      
-      <!-- Peptide Synthesizer - 136 -->
-      <li class="dropdown-item ">
-        <a id="nav3-2" class="nav-link" href="synthesizer.html#cs136"></a>
-      </li>
-      <!-- End Features - Peptide Synthesizer - 136 -->
-      <!-- Peptide Synthesizer - 336 -->
-      <li class="dropdown-item ">
-        <a id="nav3-3" class="nav-link" href="synthesizer.html#cs336"></a>
-      </li>
-      <!-- End Features - Peptide Synthesizer - 336 -->
-      <!-- Peptide Synthesizer - 536 -->
-      <li class="dropdown-item ">
-        <a id="nav3-4" class="nav-link" href="synthesizer.html#cs536"></a>
-      </li>
-      <!-- End Features - Peptide Synthesizer - 536 -->
+                                    <!-- Peptide Synthesizer - 136 -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav3-2" class="nav-link" href="synthesizer.html#cs136"></a>
+                                    </li>
+                                    <!-- End Features - Peptide Synthesizer - 136 -->
+                                    <!-- Peptide Synthesizer - 336 -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav3-3" class="nav-link" href="synthesizer.html#cs336"></a>
+                                    </li>
+                                    <!-- End Features - Peptide Synthesizer - 336 -->
+                                    <!-- Peptide Synthesizer - 536 -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav3-4" class="nav-link" href="synthesizer.html#cs536"></a>
+                                    </li>
+                                    <!-- End Features - Peptide Synthesizer - 536 -->
 
-      <!-- Peptide Synthesizer - 636 -->
-      <li class="dropdown-item ">
-        <a id="nav3-5" class="nav-link" href="synthesizer.html#cs536-1"></a>
-      </li>
-      <!-- End Features - Peptide Synthesizer - 636 -->
-     </ul>
-  </li>
-  <!-- End Features -->
-
-
-     <!-- HPLC -->
- <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-  <a id="nav4-1" href="hplc.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-
-  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-    
-    <!-- semi -->
-    <li class="dropdown-item ">
-      <a id="nav4-2" class="nav-link" href="hplc.html#commercial"></a>
-    </li>
-    <!-- semi -->
-    <!-- Peptide Synthesizer - 336 -->
-    <li class="dropdown-item ">
-      <a id="nav4-3" class="nav-link" href="hplc.html#clinical"></a>
-    </li>
-    <!-- End Features - Peptide Synthesizer - 336 -->
-    <!-- Peptide Synthesizer - 536 -->
-    <li class="dropdown-item ">
-      <a id="nav4-4" class="nav-link" href="hplc.html#custom"></a>
-    </li>
-    <!-- End Features - Peptide Synthesizer - 536 -->
-
-  </ul>
-
-</li>
-<!-- End HPLC -->
+                                    <!-- Peptide Synthesizer - 636 -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav3-5" class="nav-link" href="synthesizer.html#cs536-1"></a>
+                                    </li>
+                                    <!-- End Features - Peptide Synthesizer - 636 -->
+                                </ul>
+                            </li>
+                            <!-- End Features -->
 
 
-                <!-- Peptide Reagents -->
-                 <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav5-1" href="peptidereagent.html" id="nav-link--features" class="nav-link g-py-7 g-px-0"  aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-                </li>
-                <!-- Peptide Reagents -->
+                            <!-- HPLC -->
+                            <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"
+                                data-animation-out="fadeOut">
+                                <a id="nav4-1" href="hplc.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true"
+                                   aria-expanded="false" aria-controls="nav-submenu--features"></a>
 
-                <!-- QUALITY MANAGEMENT  -->
-                <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav6-1" href="qualitymanagement.html" id="nav-link--features" class="nav-link g-py-7 g-px-0"  aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-                </li>
-                <!-- QUALITY MANAGEMENT  -->
+                                <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling"
+                                    id="nav-submenu--features" aria-labelledby="nav-link--features">
 
-                <!-- agent -->
-                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav8-1" href="peptidesinstitude.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+                                    <!-- semi -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav4-2" class="nav-link" href="hplc.html#commercial"></a>
+                                    </li>
+                                    <!-- semi -->
+                                    <!-- Peptide Synthesizer - 336 -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav4-3" class="nav-link" href="hplc.html#clinical"></a>
+                                    </li>
+                                    <!-- End Features - Peptide Synthesizer - 336 -->
+                                    <!-- Peptide Synthesizer - 536 -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav4-4" class="nav-link" href="hplc.html#custom"></a>
+                                    </li>
+                                    <!-- End Features - Peptide Synthesizer - 536 -->
 
-                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-                    <!-- Peptides - Commercial -->
-                    <li class="dropdown-item ">
-                      <a id="nav2-8" class="nav-link" href="peptidesinstitude.html"></a>
-                    </li>
-                    <!-- End Peptides - Commercial -->
-                  </ul>
-                </li>
-                <!-- agent -->
+                                </ul>
 
-                 <!-- Contact -->
-                 <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                  <a id="nav7-1" href="offices.html" class="nav-link g-py-7 g-px-0" href="#!" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-
-                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-                    
-                    <!-- Contact - Offices -->
-                    <li class="dropdown-item ">
-                      <a id="nav7-2"  class="nav-link" href="offices.html"></a>
-                    </li>
-                    <!-- End Features - Offices -->
-                    <!-- Features - Careers -->
-                    <li class="dropdown-item ">
-                      <a class="nav-link" href="careers.html">Careers</a>
-                    </li>
-                    <!-- End Features - Careers -->
-
-                  </ul>
-                </li>
-                <!-- End Contact -->
-
-              </ul>
+                            </li>
+                            <!-- End HPLC -->
 
 
-            </div>
-            <!-- End Navigation -->
-          </div>
+                            <!-- Peptide Reagents -->
+                            <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"
+                                data-animation-out="fadeOut">
+                                <a id="nav5-1" href="peptidereagent.html" id="nav-link--features"
+                                   class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false"
+                                   aria-controls="nav-submenu--features"></a>
+                            </li>
+                            <!-- Peptide Reagents -->
 
-          <a onclick="i18next.changeLanguage('zh')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
-              中文版
-              </a>
-          <a onclick="i18next.changeLanguage('en')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
-            English
-          </a>
-          &nbsp &nbsp
-        </nav>
-      </div>
+                            <!-- QUALITY MANAGEMENT  -->
+                            <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"
+                                data-animation-out="fadeOut">
+                                <a id="nav6-1" href="qualitymanagement.html" id="nav-link--features"
+                                   class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false"
+                                   aria-controls="nav-submenu--features"></a>
+                            </li>
+                            <!-- QUALITY MANAGEMENT  -->
+
+                            <!-- agent -->
+                            <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"
+                                data-animation-out="fadeOut">
+                                <a id="nav8-1" href="peptidesinstitude.html" class="nav-link g-py-7 g-px-0"
+                                   aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+
+                                <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling"
+                                    id="nav-submenu--features" aria-labelledby="nav-link--features">
+                                    <!-- Peptides - Commercial -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav2-8" class="nav-link" href="peptidesinstitude.html"></a>
+                                    </li>
+                                    <!-- End Peptides - Commercial -->
+                                </ul>
+                            </li>
+                            <!-- agent -->
+
+                            <!-- Contact -->
+                            <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"
+                                data-animation-out="fadeOut">
+                                <a id="nav7-1" href="offices.html" class="nav-link g-py-7 g-px-0" href="#!"
+                                   aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+
+                                <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling"
+                                    id="nav-submenu--features" aria-labelledby="nav-link--features">
+
+                                    <!-- Contact - Offices -->
+                                    <li class="dropdown-item ">
+                                        <a id="nav7-2" class="nav-link" href="offices.html"></a>
+                                    </li>
+                                    <!-- End Features - Offices -->
+                                    <!-- Features - Careers -->
+                                    <li class="dropdown-item ">
+                                        <a class="nav-link" href="careers.html">Careers</a>
+                                    </li>
+                                    <!-- End Features - Careers -->
+
+                                </ul>
+                            </li>
+                            <!-- End Contact -->
+
+                        </ul>
+
+
+                    </div>
+                    <!-- End Navigation -->
+
+                </div>
+                <div class="changeLanguage">
+                    <a onclick="i18next.changeLanguage('zh')"
+                       class="pull-right btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
+                        中文版
+                    </a>
+                    <a onclick="i18next.changeLanguage('en')"
+                       class="pull-right btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
+                        English
+                    </a>
+                    &nbsp &nbsp
+                </div>
+            </nav>
+        </div>
     </header>
     <!-- End Header -->
-      <a href="#" class="backtotop" id="backtotop" style="display: none" >
-          <div style="line-height: 60px;  text-align: center; outline: none !important; visibility: visible !important; resize: none !important; overflow: hidden !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: pointer !important; float: none !important; pointer-events: auto !important; box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 10px 0px !important; height: 60px !important; min-height: 60px !important; max-height: 60px !important; width: 60px !important; min-width: 60px !important; max-width: 60px !important; border-radius: 50% !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center !important; margin: 0px !important; top: auto !important; bottom: 100px !important; right: 20px !important; left: auto !important; display: block !important;">
-              <img width="30" height="30"  style="display:block;  margin-left: 15px; margin-top: 15px" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMS4xODkgNTExLjE4OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjE4OSA1MTEuMTg5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGcgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgLTEuMjUgMCA0NSkiPgoJPGc+CgkJPGc+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjkxLjg4Ni05MC4zNDhMMjEzLjAxNSwyNS44NzZjLTYuODM4LDEwLjA2OS0xNy43MjcsOS44NjUtMjQuMjAxLTAuNDIxTDExNi4xMS04OS45MjcgICAgIGMtNi40NzQtMTAuMjg2LTIuMDQ4LTE4LjcwNSw5Ljg0Mi0xOC43MDVoMjEuMzExdi00MC4xMThjMC0xMi41NjEsMTAuMTk0LTIyLjc1NiwyMi43NTYtMjIuNzU2aDY4LjI2NyAgICAgYzEyLjU4NCwwLDIyLjc1NiwxMC4xOTQsMjIuNzU2LDIyLjc1NnY0MC4xMThoMjEuNjA2QzI5NC41NDgtMTA4LjYzMiwyOTguNzM1LTEwMC40MTcsMjkxLjg4Ni05MC4zNDgiLz4KCQkJPHBhdGggc3R5bGU9ImZpbGw6IzI5MkYzMzsiIGQ9Ik00MC44OTItMjM0LjkwMkgxNS43MTNDNC42MTktMjM0LjkwMiwwLTIyNi44MDEsMC0yMTguOTYyYzAsOC4wNzgsNS43OCwxNS45MjksMTUuNzEzLDE1LjkyOSAgICAgaDg0Ljk4MWM5Ljk0NCwwLDE1LjcyNC03Ljg1MSwxNS43MjQtMTUuOTI5YzAtNy44MzktNC42MTktMTUuOTQtMTUuNzI0LTE1Ljk0SDc1LjUyNlYtMzUwLjgzICAgICBjMC0xMS41Ni03LjM4NC0xOC4wMjItMTcuMzE3LTE4LjAyMnMtMTcuMzE3LDYuNDYzLTE3LjMxNywxOC4wMjJMNDAuODkyLTIzNC45MDJ6Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjQwLjQ0Ny0yODUuMjQ5YzAsMjcuOTQ0LTE0LjU1Miw1My4xMzQtNDMuNDE4LDUzLjEzNGMtMjguODc3LDAtNDMuNDI5LTI1LjE5LTQzLjQyOS01My4xMzQgICAgIGMwLTI4LjE3MSwxNC4wOTctNTMuMTExLDQzLjQyOS01My4xMTFTMjQwLjQ0Ny0zMTMuNDIsMjQwLjQ0Ny0yODUuMjQ5IE0xMTcuNTc4LTI4NS4yNDljMCw0OC4wMzcsMzIuMzI0LDg1LjAwMyw3OS40NTEsODUuMDAzICAgICBjNDYuNDEsMCw3OS40NC0zOC4xMjcsNzkuNDQtODUuMDAzYzAtNDcuNzk4LTMyLjA5Ny04NS4wMDMtNzkuNDQtODUuMDAzQzE1MC4xNDEtMzcwLjI1MiwxMTcuNTc4LTMzMy4wNDcsMTE3LjU3OC0yODUuMjQ5Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMzI1LjU4Ni0yODIuNDczaDIzLjU2M2MxNC41NDEsMCwyMy43NjgsMTAuNjI3LDIzLjc2OCwyNC40NzQgICAgIGMwLDEzLjg3LTkuMjI3LDI0LjQ5Ni0yMy43NjgsMjQuNDk2aC0yMy41NjNWLTI4Mi40NzN6IE0yOTAuOTMtMjIxLjA0NGMwLDEwLjg2Niw2LjQ3NCwxOCwxOC4wMzQsMThoNDAuODU4ICAgICBjMzMuOTYzLDAsNTkuMTMtMjIuMTUzLDU5LjEzLTU1LjE4MmMwLTMzLjcxMi0yNi4wODktNTQuNzM4LTU3LjczMS01NC43MzhoLTI1LjYzNHYtMzcuODc3YzAtMTEuNTQ4LTcuMzg0LTE4LjAyMi0xNy4zMDYtMTguMDIyICAgICBjLTkuOTU2LDAtMTcuMzUxLDYuNDc0LTE3LjM1MSwxOC4wMjJWLTIyMS4wNDR6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
-          </div>
-      </a>
+    <a href="#" class="backtotop" id="backtotop" style="display: none">
+        <div style="line-height: 60px;  text-align: center; outline: none !important; visibility: visible !important; resize: none !important; overflow: hidden !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: pointer !important; float: none !important; pointer-events: auto !important; box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 10px 0px !important; height: 60px !important; min-height: 60px !important; max-height: 60px !important; width: 60px !important; min-width: 60px !important; max-width: 60px !important; border-radius: 50% !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center !important; margin: 0px !important; top: auto !important; bottom: 100px !important; right: 20px !important; left: auto !important; display: block !important;">
+            <img width="30" height="30" style="display:block;  margin-left: 15px; margin-top: 15px"
+                 src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMS4xODkgNTExLjE4OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjE4OSA1MTEuMTg5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGcgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgLTEuMjUgMCA0NSkiPgoJPGc+CgkJPGc+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjkxLjg4Ni05MC4zNDhMMjEzLjAxNSwyNS44NzZjLTYuODM4LDEwLjA2OS0xNy43MjcsOS44NjUtMjQuMjAxLTAuNDIxTDExNi4xMS04OS45MjcgICAgIGMtNi40NzQtMTAuMjg2LTIuMDQ4LTE4LjcwNSw5Ljg0Mi0xOC43MDVoMjEuMzExdi00MC4xMThjMC0xMi41NjEsMTAuMTk0LTIyLjc1NiwyMi43NTYtMjIuNzU2aDY4LjI2NyAgICAgYzEyLjU4NCwwLDIyLjc1NiwxMC4xOTQsMjIuNzU2LDIyLjc1NnY0MC4xMThoMjEuNjA2QzI5NC41NDgtMTA4LjYzMiwyOTguNzM1LTEwMC40MTcsMjkxLjg4Ni05MC4zNDgiLz4KCQkJPHBhdGggc3R5bGU9ImZpbGw6IzI5MkYzMzsiIGQ9Ik00MC44OTItMjM0LjkwMkgxNS43MTNDNC42MTktMjM0LjkwMiwwLTIyNi44MDEsMC0yMTguOTYyYzAsOC4wNzgsNS43OCwxNS45MjksMTUuNzEzLDE1LjkyOSAgICAgaDg0Ljk4MWM5Ljk0NCwwLDE1LjcyNC03Ljg1MSwxNS43MjQtMTUuOTI5YzAtNy44MzktNC42MTktMTUuOTQtMTUuNzI0LTE1Ljk0SDc1LjUyNlYtMzUwLjgzICAgICBjMC0xMS41Ni03LjM4NC0xOC4wMjItMTcuMzE3LTE4LjAyMnMtMTcuMzE3LDYuNDYzLTE3LjMxNywxOC4wMjJMNDAuODkyLTIzNC45MDJ6Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjQwLjQ0Ny0yODUuMjQ5YzAsMjcuOTQ0LTE0LjU1Miw1My4xMzQtNDMuNDE4LDUzLjEzNGMtMjguODc3LDAtNDMuNDI5LTI1LjE5LTQzLjQyOS01My4xMzQgICAgIGMwLTI4LjE3MSwxNC4wOTctNTMuMTExLDQzLjQyOS01My4xMTFTMjQwLjQ0Ny0zMTMuNDIsMjQwLjQ0Ny0yODUuMjQ5IE0xMTcuNTc4LTI4NS4yNDljMCw0OC4wMzcsMzIuMzI0LDg1LjAwMyw3OS40NTEsODUuMDAzICAgICBjNDYuNDEsMCw3OS40NC0zOC4xMjcsNzkuNDQtODUuMDAzYzAtNDcuNzk4LTMyLjA5Ny04NS4wMDMtNzkuNDQtODUuMDAzQzE1MC4xNDEtMzcwLjI1MiwxMTcuNTc4LTMzMy4wNDcsMTE3LjU3OC0yODUuMjQ5Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMzI1LjU4Ni0yODIuNDczaDIzLjU2M2MxNC41NDEsMCwyMy43NjgsMTAuNjI3LDIzLjc2OCwyNC40NzQgICAgIGMwLDEzLjg3LTkuMjI3LDI0LjQ5Ni0yMy43NjgsMjQuNDk2aC0yMy41NjNWLTI4Mi40NzN6IE0yOTAuOTMtMjIxLjA0NGMwLDEwLjg2Niw2LjQ3NCwxOCwxOC4wMzQsMThoNDAuODU4ICAgICBjMzMuOTYzLDAsNTkuMTMtMjIuMTUzLDU5LjEzLTU1LjE4MmMwLTMzLjcxMi0yNi4wODktNTQuNzM4LTU3LjczMS01NC43MzhoLTI1LjYzNHYtMzcuODc3YzAtMTEuNTQ4LTcuMzg0LTE4LjAyMi0xNy4zMDYtMTguMDIyICAgICBjLTkuOTU2LDAtMTcuMzUxLDYuNDc0LTE3LjM1MSwxOC4wMjJWLTIyMS4wNDR6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="/>
+        </div>
+    </a>
 
-      <div id="heroimage">
-  
+    <div id="heroimage">
 
 
         <div class="hero-section">
-          <div class="hero-section-text lazyload">
-            <div class="img-fullscreen container g-color-white text-center g-z-index-1" >
-              <div class="mb-5">
-                  <a href="offices.html" class="btn btn-xxl u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">Get A Quote</a>                <h2 class="g-font-weight-700 g-font-size-40 g-font-size-50--md text-uppercase">
-                    <span class="u-text-animation u-text-animation--typing" ></span>
-                  </h2>
-                <!-- <p class="g-font-weight-700 g-font-size-50">Peptides</p> -->
-              </div>
-      
-            </div>
-      
-          </div>
-        </div>
-        
-        <style>
-        
-.hero-section {
-  background: url(assets/img/FrontDoor.jpg) 50% no-repeat;
-  background-size: cover;
-  min-height: 400px;
-  height: 60vh;
-  text-align: center;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+            <div class="hero-section-text lazyload">
+                <div class="img-fullscreen container g-color-white text-center g-z-index-1">
+                    <div class="mb-5">
+                        <a href="offices.html" class="btn btn-xxl u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">Get A
+                            Quote</a>
+                        <h2 class="g-font-weight-700 g-font-size-40 g-font-size-50--md text-uppercase">
+                            <span class="u-text-animation u-text-animation--typing"></span>
+                        </h2>
+                        <!-- <p class="g-font-weight-700 g-font-size-50">Peptides</p> -->
+                    </div>
 
-.hero-section .hero-section-text {
-  color: #fefefe;
-  text-shadow: 1px 1px 2px #0a0a0a;
-}
+                </div>
+
+            </div>
+        </div>
+
+        <style>
+
+            .hero-section {
+                background: url(assets/img/FrontDoor.jpg) 50% no-repeat;
+                background-size: cover;
+                min-height: 400px;
+                height: 60vh;
+                text-align: center;
+                display: -webkit-flex;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-align-items: center;
+                -ms-flex-align: center;
+                align-items: center;
+                -webkit-justify-content: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+            }
+
+            .hero-section .hero-section-text {
+                color: #fefefe;
+                text-shadow: 1px 1px 2px #0a0a0a;
+            }
         </style>
 
 
- 
-    <section class="g-py-20">
-      <div class="container">
-        <header class="g-width-70x--md mx-auto g-mb-60">
-          <div class="text-center u-heading-v2-3--bottom g-brd-primary g-mb-20">    
-              <div id="key1" class=" text-center h1 u-heading-v2__title g-color-gray-dark-v2 g-font-weight-600"></div>      
-          </div>
-          <div id="key2" class="text-center lead"></div>      
-        </header>
-      </div>
-    </section>
-    <!-- End About Us -->
-
-
-
-
-      <!-- Footer -->
-      <div id="contacts-section" class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
-        <div class="container">
-          <div class="row">
-            <!-- Footer Content -->
-            <div class="col-md-3 g-mb-40 g-mb-0--lg">
-              <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
-                <h2 class="u-heading-v2__title h6 text-uppercase mb-0">About Us</h2>
-              </div>
-  
-              <p>CSBio is a leading peptide and peptide synthesizer manufacturing company located on the edge of Silicon Valley in Menlo Park, California. Since 1993.</p>
+        <section class="g-py-20">
+            <div class="container">
+                <header class="g-width-70x--md mx-auto g-mb-60">
+                    <div class="text-center u-heading-v2-3--bottom g-brd-primary g-mb-20">
+                        <div id="key1"
+                             class=" text-center h1 u-heading-v2__title g-color-gray-dark-v2 g-font-weight-600"></div>
+                    </div>
+                    <div id="key2" class="text-center lead"></div>
+                </header>
             </div>
-            <!-- End Footer Content -->
-  
-            <!-- Footer Content -->
-  
-  
-            <!-- Footer Content -->
-            <div class="col-md-3 g-mb-40 g-mb-0--lg">
-              <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
-                <h2 class="u-heading-v2__title h6 text-uppercase mb-0"></h2>
-              </div>
-  
-              <nav class="text-uppercase1">
-                <ul class="list-unstyled g-mt-minus-10 mb-0">
-                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                    <h4 class="h6 g-pr-20 mb-0">
-                  <a id="nav11" class="g-color-white-opacity-0_8 g-color-white--hover" href="index.html"></a>
-                  <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                </h4>
-                  </li>
-                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                    <h4 class="h6 g-pr-20 mb-0">
-                  <a id="nav2-11" class="g-color-white-opacity-0_8 g-color-white--hover" href="peptides.html"></a>
-                  <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                </h4>
-                  </li>
-                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                    <h4 class="h6 g-pr-20 mb-0">
-                  <a id="nav3-11" class="g-color-white-opacity-0_8 g-color-white--hover" href="synthesizer.html"></a>
-                  <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                </h4>
-                  </li>
-                  <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                      <h4 class="h6 g-pr-20 mb-0">
-                    <a id="nav4-11" class="g-color-white-opacity-0_8 g-color-white--hover" href="hplc.html"></a>
-                    <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                  </h4>
-                    </li>
+        </section>
+        <!-- End About Us -->
 
-                </ul>
-              </nav>
-            </div>
-            <!-- End Footer Content -->
 
-                        <!-- Footer Content -->
-                        <div class="col-md-3 g-mb-40 g-mb-0--lg">
-                          <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+        <!-- Footer -->
+        <div id="contacts-section" class="g-bg-black-opacity-0_9 g-color-white-opacity-0_8 g-py-60">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Content -->
+                    <div class="col-md-3 g-mb-40 g-mb-0--lg">
+                        <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+                            <h2 class="u-heading-v2__title h6 text-uppercase mb-0">About Us</h2>
+                        </div>
+
+                        <p>CSBio is a leading peptide and peptide synthesizer manufacturing company located on the edge
+                            of Silicon Valley in Menlo Park, California. Since 1993.</p>
+                    </div>
+                    <!-- End Footer Content -->
+
+                    <!-- Footer Content -->
+
+
+                    <!-- Footer Content -->
+                    <div class="col-md-3 g-mb-40 g-mb-0--lg">
+                        <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
                             <h2 class="u-heading-v2__title h6 text-uppercase mb-0"></h2>
-                          </div>
-              
-                          <nav class="text-uppercase1">
+                        </div>
+
+                        <nav class="text-uppercase1">
                             <ul class="list-unstyled g-mt-minus-10 mb-0">
-                              <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                                <h4 class="h6 g-pr-20 mb-0">
-                              <a id="nav5-11" class="g-color-white-opacity-0_8 g-color-white--hover" href="peptidereagent.html"></a>
-                              <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                            </h4>
-                              </li>
-                              <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                                <h4 class="h6 g-pr-20 mb-0">
-                              <a id="nav6-11" class="g-color-white-opacity-0_8 g-color-white--hover" href="qualitymanagement.html"></a>
-                              <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                            </h4>
-                              </li>
-                              <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                                <h4 class="h6 g-pr-20 mb-0">
-                              <a id="nav8-11" class="g-color-white-opacity-0_8 g-color-white--hover" href="peptidesinstitude.html"></a>
-                              <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                            </h4>
-                              </li>
-                              <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
-                                  <h4 class="h6 g-pr-20 mb-0">
-                                <a id="nav7-11" class="g-color-white-opacity-0_8 g-color-white--hover" href="offices.html"></a>
-                                <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
-                              </h4>
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="index.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
+                                </li>
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav2-11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="peptides.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
+                                </li>
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav3-11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="synthesizer.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
+                                </li>
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav4-11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="hplc.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
                                 </li>
 
                             </ul>
-                          </nav>
+                        </nav>
+                    </div>
+                    <!-- End Footer Content -->
+
+                    <!-- Footer Content -->
+                    <div class="col-md-3 g-mb-40 g-mb-0--lg">
+                        <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+                            <h2 class="u-heading-v2__title h6 text-uppercase mb-0"></h2>
                         </div>
-                        <!-- End Footer Content -->
-  
-            <!-- Footer Content -->
-            <div class="col-md-3">
-              <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
-                <h2 class="u-heading-v2__title h6 text-uppercase mb-0"></h2>
-              </div>
-  
-              <address class="g-bg-no-repeat g-font-size-12 mb-0" style="background-image: url(assets/img/maps/map2.png);">
-            <!-- Location -->
-            <div class="d-flex g-mb-20">
-              <div class="g-mr-10">
+
+                        <nav class="text-uppercase1">
+                            <ul class="list-unstyled g-mt-minus-10 mb-0">
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav5-11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="peptidereagent.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
+                                </li>
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav6-11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="qualitymanagement.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
+                                </li>
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav8-11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="peptidesinstitude.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
+                                </li>
+                                <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
+                                    <h4 class="h6 g-pr-20 mb-0">
+                                        <a id="nav7-11" class="g-color-white-opacity-0_8 g-color-white--hover"
+                                           href="offices.html"></a>
+                                        <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
+                                    </h4>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- End Footer Content -->
+
+                    <!-- Footer Content -->
+                    <div class="col-md-3">
+                        <div class="u-heading-v2-3--bottom g-brd-white-opacity-0_8 g-mb-20">
+                            <h2 class="u-heading-v2__title h6 text-uppercase mb-0"></h2>
+                        </div>
+
+                        <address class="g-bg-no-repeat g-font-size-12 mb-0"
+                                 style="background-image: url(assets/img/maps/map2.png);">
+                            <!-- Location -->
+                            <div class="d-flex g-mb-20">
+                                <div class="g-mr-10">
                 <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
                   <i class="fa fa-map-marker"></i>
                 </span>
-              </div>
-              <p class="mb-0">希施生物科技（上海）有限公司</p>
-            </div>
-            <!-- End Location -->
-  
-            <!-- Phone -->
-            <div class="d-flex g-mb-20">
-              <div class="g-mr-10">
+                                </div>
+                                <div class="align-middle">
+                                    <p class="mb-0" id="footerName">希施生物科技（上海）有限公司</p>
+                                </div>
+                            </div>
+                            <!-- End Location -->
+
+                            <!-- Phone -->
+                            <div class="d-flex g-mb-20 " style="height: 33px">
+                                <div class="g-mr-10">
                 <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
                   <i class="fa fa-phone"></i>
                 </span>
-              </div>
-              <p class="mb-0"> <br> (+021) 5078 1655<br> </p>
-            </div>
-            <!-- End Phone -->
-  
-            <!-- Email and Website -->
-            <div class="d-flex g-mb-20">
-              <div class="g-mr-10">
+                                </div>
+                                <div class="align-middle">
+                                    <p class="mb-0" style="text-align: center;margin-top: 0.6rem !important; ">(+021)
+                                        5078 1655<br></p>
+                                </div>
+                            </div>
+                            <!-- End Phone -->
+
+                            <!-- Email and Website -->
+                            <div class="d-flex g-mb-20">
+                                <div class="g-mr-10">
                 <span class="u-icon-v3 u-icon-size--xs g-bg-white-opacity-0_1 g-color-white-opacity-0_6">
                   <i class="fa fa-globe"></i>
                 </span>
-              </div>
-              <p class="mb-0">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="mailto:info@csbiochina.com">info@csbiochina.com</a>
-                <br>
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">www.csbiochina.com</a>
-              </p>
+                                </div>
+                                <p class="mb-0">
+                                    <a class="g-color-white-opacity-0_8 g-color-white--hover"
+                                       href="mailto:info@csbiochina.com">info@csbiochina.com</a>
+                                    <br>
+                                    <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">www.csbiochina.com</a>
+                                </p>
+                            </div>
+                            <!-- End Email and Website -->
+                        </address>
+                    </div>
+                    <!-- End Footer Content -->
+                </div>
             </div>
-            <!-- End Email and Website -->
-          </address>
-            </div>
-            <!-- End Footer Content -->
-          </div>
         </div>
-      </div>
-      <!-- End Footer -->
-  
-      <!-- Copyright Footer -->
-      <footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
-              <div class="d-lg-flex">
-                <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2018 &copy; All Rights Reserved.</small>     
-              </div>
+        <!-- End Footer -->
+
+        <!-- Copyright Footer -->
+        <footer class="g-bg-gray-dark-v1 g-color-white-opacity-0_8 g-py-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 text-center text-md-left g-mb-10 g-mb-0--md">
+                        <div class="d-lg-flex">
+                            <small class="d-block g-font-size-default g-mr-10 g-mb-10 g-mb-0--md">2018 &copy; All Rights
+                                Reserved.</small>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </footer>
-      <!-- End Copyright Footer -->
-      <a class="js-go-to u-go-to-v1" href="#!" data-type="fixed" data-position='{
+        </footer>
+        <!-- End Copyright Footer -->
+        <a class="js-go-to u-go-to-v1" href="#!" data-type="fixed" data-position='{
        "bottom": 15,
        "right": 15
      }' data-offset-top="400" data-compensation="#js-header" data-show-effect="zoomIn">
-        <i class="hs-icon hs-icon-arrow-top"></i>
-      </a>
-    </main>
-  
-    <div class="u-outer-spaces-helper"></div>
-  
-      <!-- Google Analytics -->
-      <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-62852370-1', 'auto');
-      ga('send', 'pageview');
-      </script>
-      <script async src='https://www.google-analytics.com/analytics.js'></script>
-      <!-- End Google Analytics -->
-  
-  
-  
-    <!-- JS Global Compulsory -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
-    <script src="assets/vendor/popper.min.js"></script>
-    <script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="assets/vendor/lazysizes.min.js"></script>
-  
-    <!-- JS Implementing Plugins -->
-    <script src="assets/vendor/appear.js"></script>
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="assets/vendor/typedjs/typed.min.js"></script>
+            <i class="hs-icon hs-icon-arrow-top"></i>
+        </a>
+</main>
+
+<div class="u-outer-spaces-helper"></div>
+
+<!-- Google Analytics -->
+<script>
+    window.ga = window.ga || function () {
+        (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', 'UA-62852370-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!-- End Google Analytics -->
 
 
-    <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
-    <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
-    <script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
-    
-    <!-- JS Unify -->
-    <script src="assets/js/hs.core.js"></script>
-    <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
-    <script src="assets/js/components/hs.tabs.js"></script>
-    <script src="assets/js/components/text-animation/hs.text-slideshow.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
-  
-    <!-- JS Customization -->
-    <script src="assets/js/custom.js"></script>
-  
-    <!-- JS Plugins Init. -->
-    <script>
-      $(document).on('ready', function () {
-          // initialization of carousel
-          $.HSCore.components.HSCarousel.init('.js-carousel');
-          // initialization of tabs
-          $.HSCore.components.HSTabs.init('[role="tablist"]');
-          // initialization of text animation (typing)
-          $(".u-text-animation.u-text-animation--typing").typed({
+<!-- JS Global Compulsory -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+<script src="assets/vendor/popper.min.js"></script>
+<script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+<script src="assets/vendor/lazysizes.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="assets/vendor/appear.js"></script>
+<script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+<script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+<script src="assets/vendor/typedjs/typed.min.js"></script>
+
+
+<script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+<script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
+<script src="assets/vendor/dzsparallaxer/advancedscroller/plugin.js"></script>
+
+<!-- JS Unify -->
+<script src="assets/js/hs.core.js"></script>
+<script src="assets/js/components/hs.carousel.js"></script>
+<script src="assets/js/components/hs.header.js"></script>
+<script src="assets/js/helpers/hs.hamburgers.js"></script>
+<script src="assets/js/components/hs.tabs.js"></script>
+<script src="assets/js/components/text-animation/hs.text-slideshow.js"></script>
+<script src="assets/js/components/hs.go-to.js"></script>
+
+<!-- JS Customization -->
+<script src="assets/js/custom.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+    $(document).on('ready', function () {
+        // initialization of carousel
+        $.HSCore.components.HSCarousel.init('.js-carousel');
+        // initialization of tabs
+        $.HSCore.components.HSTabs.init('[role="tablist"]');
+        // initialization of text animation (typing)
+        $(".u-text-animation.u-text-animation--typing").typed({
             strings: [
-              "people who <i>Love</i> peptides",
-              "people who <i>know</i> peptides"
+                "people who <i>Love</i> peptides",
+                "people who <i>know</i> peptides"
             ],
             typeSpeed: 100,
             loop: true,
             backDelay: 1000
-          });
-          // initialization of go to
-          // $.HSCore.components.HSGoTo.init('.js-go-to');
         });
-        $(window).on('load', function () {
-          // initialization of header
-          $.HSCore.components.HSHeader.init($('#js-header'));
-          $.HSCore.helpers.HSHamburgers.init('.hamburger');
-          // initialization of HSMegaMenu component
-          $('.js-mega-menu').HSMegaMenu({
+        // initialization of go to
+        // $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+    $(window).on('load', function () {
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#js-header'));
+        $.HSCore.helpers.HSHamburgers.init('.hamburger');
+        // initialization of HSMegaMenu component
+        $('.js-mega-menu').HSMegaMenu({
             event: 'hover',
             pageContainer: $('.container'),
             breakpoint: 991
-          });
         });
-        $(window).on('resize', function () {
-          setTimeout(function () {
+    });
+    $(window).on('resize', function () {
+        setTimeout(function () {
             $.HSCore.components.HSTabs.init('[role="tablist"]');
-          }, 200);
-        });
+        }, 200);
+    });
 
 
-                 // import i18next from 'i18next';
+    // import i18next from 'i18next';
 
-            i18next.init({
-            lng: 'zh',
-            debug: true,
-            resources: {
-              zh: {
+    i18next.init({
+        lng: 'zh',
+        debug: true,
+        resources: {
+            zh: {
                 translation: {
-                  "nav1": "主页",
-                  "nav11": "主页",
+                    "nav1": "主页",
+                    "nav11": "主页",
 
-                  "nav2-1": "多肽",
-                  "nav2-11": "多肽",
-                  "nav2-2": "GMP生产多肽",
-                  "nav2-3": "商业化多肽",
-                  "nav2-4": "临床多肽",
-                  "nav2-5": "客户定制多肽",
-                  "nav2-6": "PET多肽",            
-                  "nav2-7": "美容多肽",
-                  "nav2-8": "Peptide Institute",
-
-
-                  "nav3-1": "多肽合成仪",
-                  "nav3-11": "多肽合成仪",
-
-                  "nav3-2": "研发型",
-                  "nav3-3": "中试级",
-                  "nav3-4": "工业级",
-                  "nav3-5": "多肽合成裂解系统",            
-
-                  "nav4-1": "制备液相系统",
-                  "nav4-11": "制备液相系统",
-
-                  "nav4-2": "半制备液相系统",
-                  "nav4-3": "中试制备型液相系统",
-                  "nav4-4": "工业制备型DAC液相系统",
+                    "nav2-1": "多肽",
+                    "nav2-11": "多肽",
+                    "nav2-2": "GMP生产多肽",
+                    "nav2-3": "商业化多肽",
+                    "nav2-4": "临床多肽",
+                    "nav2-5": "客户定制多肽",
+                    "nav2-6": "PET多肽",
+                    "nav2-7": "美容多肽",
+                    "nav2-8": "Peptide Institute",
 
 
-                  "nav5-1": "多肽试剂",
-                  "nav5-11": "多肽试剂",
-                  "nav6-1": "质量管理",
-                  "nav6-11": "质量管理",
+                    "nav3-1": "多肽合成仪",
+                    "nav3-11": "多肽合成仪",
+
+                    "nav3-2": "研发型",
+                    "nav3-3": "中试级",
+                    "nav3-4": "工业级",
+                    "nav3-5": "多肽合成裂解系统",
+
+                    "nav4-1": "制备液相系统",
+                    "nav4-11": "制备液相系统",
+
+                    "nav4-2": "半制备液相系统",
+                    "nav4-3": "中试制备型液相系统",
+                    "nav4-4": "工业制备型DAC液相系统",
 
 
-                  "nav8-1": "代理",
-                  "nav8-11": "代理",
+                    "nav5-1": "多肽试剂",
+                    "nav5-11": "多肽试剂",
+                    "nav6-1": "质量管理",
+                    "nav6-11": "质量管理",
 
 
-                  "nav7-1": "关于我们",
-                  "nav7-11": "关于我们",
-
-                  "nav7-2": "联系我们",
+                    "nav8-1": "代理",
+                    "nav8-11": "代理",
 
 
-                  "test1": "&nbsp 希施",
-                  "key1": "关于我们",
-                  "key2": "&nbsp&nbsp 25年来，CSBio致力为客户提供全方位多肽解决方案。从前端多肽试剂到后端的多肽研发、生产设备、多肽合成仪、多肽合成裂解系统、纯化设备，并集GMP多肽、定制肽、抗体于一体。CSBio是全球唯一拥有GMP证书的多肽合成仪制造商。希施生物科技(上海)有限公司是CSBio海外第一家分公司，位于上海自由贸易试验区的张江药谷，立足中国，为全球客户提供优质的多肽相关产品和技术服务。<br>我们的理念是客户的利益至上，并向新型多肽企业迈进。<br>&nbsp&nbsp我们的使命是提供最优质的产品和优秀的客户服务。<br>&nbsp&nbsp我们的愿景是成为全球多肽解决方案提供商。"
+                    "nav7-1": "关于我们",
+                    "nav7-11": "关于我们",
+
+                    "nav7-2": "联系我们",
+
+
+                    "test1": "&nbsp 希施",
+                    "key1": "关于我们",
+                    "key2": "&nbsp&nbsp 25年来，CSBio致力为客户提供全方位多肽解决方案。从前端多肽试剂到后端的多肽研发、生产设备、多肽合成仪、多肽合成裂解系统、纯化设备，并集GMP多肽、定制肽、抗体于一体。CSBio是全球唯一拥有GMP证书的多肽合成仪制造商。希施生物科技(上海)有限公司是CSBio海外第一家分公司，位于上海自由贸易试验区的张江药谷，立足中国，为全球客户提供优质的多肽相关产品和技术服务。<br>我们的理念是客户的利益至上，并向新型多肽企业迈进。<br>&nbsp&nbsp我们的使命是提供最优质的产品和优秀的客户服务。<br>&nbsp&nbsp我们的愿景是成为全球多肽解决方案提供商。"
                 }
-              },
-              en: {
+            },
+            en: {
                 translation: {
-                  "nav1": "Home",
-                  "nav11": "Home",
+                    "nav1": "Home",
+                    "nav11": "Home",
 
-                  "test1": "&nbsp CSBio",
+                    "test1": "&nbsp CSBio",
 
-                  "nav2-1": "Peptides",
-                  "nav2-11": "Peptides",
-                  "nav2-2": "GMP",
-                  "nav2-3": "Commercial",
-                  "nav2-4": "Clinical",
-                  "nav2-5": "Custom",
-                  "nav2-6": "Pet",            
-                  "nav2-7": "Cosmetic",
-                  "nav2-8": "Peptide institute",
+                    "nav2-1": "Peptides",
+                    "nav2-11": "Peptides",
+                    "nav2-2": "GMP",
+                    "nav2-3": "Commercial",
+                    "nav2-4": "Clinical",
+                    "nav2-5": "Custom",
+                    "nav2-6": "Pet",
+                    "nav2-7": "Cosmetic",
+                    "nav2-8": "Peptide institute",
 
-                  "nav3-1": "Synthesizers",
-                  "nav3-11": "Synthesizers",
+                    "nav3-1": "Synthesizers",
+                    "nav3-11": "Synthesizers",
 
-                  "nav3-2": "Research Scale",
-                  "nav3-3": "Pilot Scale",
-                  "nav3-4": "Commercial Scale",
-                  "nav3-5": "Peptide Cleavage Systems",
+                    "nav3-2": "Research Scale",
+                    "nav3-3": "Pilot Scale",
+                    "nav3-4": "Commercial Scale",
+                    "nav3-5": "Peptide Cleavage Systems",
 
-                  "nav4-1": "HPLC",
-                  "nav4-11": "HPLC",
+                    "nav4-1": "HPLC",
+                    "nav4-11": "HPLC",
 
-                  "nav4-2": "Semi-Prep HPLC",
-                  "nav4-3": "Pilot Preparative HPLC",
-                  "nav4-4": "Industrial Preparative HPLC",
-
-
-                  "nav5-1": "REAGENTS",
-                  "nav5-11": "REAGENTS",
-
-                  "nav6-1": "QUALITY MANAGEMENT",
-                  "nav6-11": "QUALITY MANAGEMENT",
+                    "nav4-2": "Semi-Prep HPLC",
+                    "nav4-3": "Pilot Preparative HPLC",
+                    "nav4-4": "Industrial Preparative HPLC",
 
 
-                  "nav8-1": "Agent",
-                  "nav8-11": "Agent",
+                    "nav5-1": "REAGENTS",
+                    "nav5-11": "REAGENTS",
+
+                    "nav6-1": "QUALITY MANAGEMENT",
+                    "nav6-11": "QUALITY MANAGEMENT",
 
 
+                    "nav8-1": "Agent",
+                    "nav8-11": "Agent",
 
-                  "nav7-1": "About",
-                  "nav7-11": "About",
 
-                  "nav7-2": "Contact us",
+                    "nav7-1": "About",
+                    "nav7-11": "About",
 
-                  "key1": "About Us",
-                  "key2": "&nbsp&nbsp CSBio has brought together more than 25 years’ experience serving the life science community, the only professional company who has total Peptide Solution for every peptide users! <br>CSBio also has a full scale, FDA inspected GMP peptide production facility  and holds a Drug Manufacturing License from the state of California. <br>CSBio is the only GMP certified peptide synthesizers manufacturer in the world. Situated within Zhangjiang Life Science Cluster of China (Shanghai) Pilot Free Trade Zone, <br>CSBio (Shanghai) Ltd offers full range of CSBio brandname Products and Services: Ranging from front end to the back end including Peptide reagents, GMP manufactured and custom manufactured peptides, Peptide synthesizers, Peptide cleavage system, PreHPLC systems, Antibody, and more than ten of thousands of peptide related products to customers worldwide! <br> &nbsp&nbspOur Mission is to provide highest quality products and excellent customer service at a competitive pricing. <br>&nbsp&nbspOur vision is to become a global Total Peptide Solution Provider"
+                    "nav7-2": "Contact us",
+
+                    "key1": "About Us",
+                    "key2": "&nbsp&nbsp CSBio has brought together more than 25 years’ experience serving the life science community, the only professional company who has total Peptide Solution for every peptide users! <br>CSBio also has a full scale, FDA inspected GMP peptide production facility  and holds a Drug Manufacturing License from the state of California. <br>CSBio is the only GMP certified peptide synthesizers manufacturer in the world. Situated within Zhangjiang Life Science Cluster of China (Shanghai) Pilot Free Trade Zone, <br>CSBio (Shanghai) Ltd offers full range of CSBio brandname Products and Services: Ranging from front end to the back end including Peptide reagents, GMP manufactured and custom manufactured peptides, Peptide synthesizers, Peptide cleavage system, PreHPLC systems, Antibody, and more than ten of thousands of peptide related products to customers worldwide! <br> &nbsp&nbspOur Mission is to provide highest quality products and excellent customer service at a competitive pricing. <br>&nbsp&nbspOur vision is to become a global Total Peptide Solution Provider"
 
                 }
-              }
             }
-          }, function(err, t) {
-            // init set content
-            updateContent();
-          });
+        }
+    }, function (err, t) {
+        // init set content
+        updateContent();
+    });
 
-          function updateContent() {
-            document.getElementById('test1').innerHTML = i18next.t('test1');
-            document.getElementById('nav1').innerHTML = i18next.t('nav1');
-            document.getElementById('nav11').innerHTML = i18next.t('nav11');
+    function updateContent() {
+        document.getElementById('test1').innerHTML = i18next.t('test1');
+        document.getElementById('nav1').innerHTML = i18next.t('nav1');
+        document.getElementById('nav11').innerHTML = i18next.t('nav11');
 
-            document.getElementById('key1').innerHTML = i18next.t('key1');
-            document.getElementById('key2').innerHTML = i18next.t('key2');
+        document.getElementById('key1').innerHTML = i18next.t('key1');
+        document.getElementById('key2').innerHTML = i18next.t('key2');
 
 
-            //peptide
-            document.getElementById('nav2-1').innerHTML = i18next.t('nav2-1');
-            document.getElementById('nav2-2').innerHTML = i18next.t('nav2-2');
-            document.getElementById('nav2-3').innerHTML = i18next.t('nav2-3');
-            document.getElementById('nav2-4').innerHTML = i18next.t('nav2-4');
-            document.getElementById('nav2-5').innerHTML = i18next.t('nav2-5');
-            document.getElementById('nav2-6').innerHTML = i18next.t('nav2-6');
-            document.getElementById('nav2-7').innerHTML = i18next.t('nav2-7');
-            document.getElementById('nav2-8').innerHTML = i18next.t('nav2-8');
-            document.getElementById('nav2-11').innerHTML = i18next.t('nav2-11');
+        //peptide
+        document.getElementById('nav2-1').innerHTML = i18next.t('nav2-1');
+        document.getElementById('nav2-2').innerHTML = i18next.t('nav2-2');
+        document.getElementById('nav2-3').innerHTML = i18next.t('nav2-3');
+        document.getElementById('nav2-4').innerHTML = i18next.t('nav2-4');
+        document.getElementById('nav2-5').innerHTML = i18next.t('nav2-5');
+        document.getElementById('nav2-6').innerHTML = i18next.t('nav2-6');
+        document.getElementById('nav2-7').innerHTML = i18next.t('nav2-7');
+        document.getElementById('nav2-8').innerHTML = i18next.t('nav2-8');
+        document.getElementById('nav2-11').innerHTML = i18next.t('nav2-11');
 
-            //synthesizer
-            document.getElementById('nav3-1').innerHTML = i18next.t('nav3-1');
-            document.getElementById('nav3-2').innerHTML = i18next.t('nav3-2');
-            document.getElementById('nav3-3').innerHTML = i18next.t('nav3-3');
-            document.getElementById('nav3-4').innerHTML = i18next.t('nav3-4');
-            document.getElementById('nav3-5').innerHTML = i18next.t('nav3-5');
-            document.getElementById('nav3-11').innerHTML = i18next.t('nav3-11');
+        //synthesizer
+        document.getElementById('nav3-1').innerHTML = i18next.t('nav3-1');
+        document.getElementById('nav3-2').innerHTML = i18next.t('nav3-2');
+        document.getElementById('nav3-3').innerHTML = i18next.t('nav3-3');
+        document.getElementById('nav3-4').innerHTML = i18next.t('nav3-4');
+        document.getElementById('nav3-5').innerHTML = i18next.t('nav3-5');
+        document.getElementById('nav3-11').innerHTML = i18next.t('nav3-11');
 
-            //HPLC
-            document.getElementById('nav4-1').innerHTML = i18next.t('nav4-1');
-            document.getElementById('nav4-2').innerHTML = i18next.t('nav4-2');
-            document.getElementById('nav4-3').innerHTML = i18next.t('nav4-3');
-            document.getElementById('nav4-4').innerHTML = i18next.t('nav4-4');
-            document.getElementById('nav4-11').innerHTML = i18next.t('nav4-11');
+        //HPLC
+        document.getElementById('nav4-1').innerHTML = i18next.t('nav4-1');
+        document.getElementById('nav4-2').innerHTML = i18next.t('nav4-2');
+        document.getElementById('nav4-3').innerHTML = i18next.t('nav4-3');
+        document.getElementById('nav4-4').innerHTML = i18next.t('nav4-4');
+        document.getElementById('nav4-11').innerHTML = i18next.t('nav4-11');
 
-            document.getElementById('nav5-1').innerHTML = i18next.t('nav5-1');
-            document.getElementById('nav6-1').innerHTML = i18next.t('nav6-1');
-            document.getElementById('nav5-11').innerHTML = i18next.t('nav5-11');
-            document.getElementById('nav6-11').innerHTML = i18next.t('nav6-11');
+        document.getElementById('nav5-1').innerHTML = i18next.t('nav5-1');
+        document.getElementById('nav6-1').innerHTML = i18next.t('nav6-1');
+        document.getElementById('nav5-11').innerHTML = i18next.t('nav5-11');
+        document.getElementById('nav6-11').innerHTML = i18next.t('nav6-11');
 
-            document.getElementById('nav7-1').innerHTML = i18next.t('nav7-1');
-            document.getElementById('nav7-2').innerHTML = i18next.t('nav7-2');
-            document.getElementById('nav8-1').innerHTML = i18next.t('nav8-1');
-            document.getElementById('nav7-11').innerHTML = i18next.t('nav7-11');
-            document.getElementById('nav8-11').innerHTML = i18next.t('nav8-11');
-          }
+        document.getElementById('nav7-1').innerHTML = i18next.t('nav7-1');
+        document.getElementById('nav7-2').innerHTML = i18next.t('nav7-2');
+        document.getElementById('nav8-1').innerHTML = i18next.t('nav8-1');
+        document.getElementById('nav7-11').innerHTML = i18next.t('nav7-11');
+        document.getElementById('nav8-11').innerHTML = i18next.t('nav8-11');
+    }
 
-          function changeLng(lng) {
-            i18next.changeLanguage(lng);
-          }
+    function changeLng(lng) {
+        i18next.changeLanguage(lng);
+    }
 
-          i18next.on('languageChanged', () => {
-            updateContent();
-          });
-      //backtotop
+    i18next.on('languageChanged', () => {
+        updateContent();
+    });
+    //backtotop
 
-      var bodyClass = document.getElementById('backtotop'),
-          lastScrollY = 0;
-      window.addEventListener('scroll', function(){
-          var st = this.scrollY;
-          // 判斷是向上捲動，而且捲軸超過 200px
-          if( st < 600) {
-              if(bodyClass.style.display !== 'none'){
-                  fadeOut(bodyClass);
-              }
-          }else{
-              if(bodyClass.style.display !== 'block'){
-                  fadeIn(bodyClass);
-              }
-          }
-          lastScrollY = st;
-      });
+    var bodyClass = document.getElementById('backtotop'),
+        lastScrollY = 0;
+    window.addEventListener('scroll', function () {
+        var st = this.scrollY;
+        // 判斷是向上捲動，而且捲軸超過 200px
+        if (st < 600) {
+            if (bodyClass.style.display !== 'none') {
+                fadeOut(bodyClass);
+            }
+        } else {
+            if (bodyClass.style.display !== 'block') {
+                fadeIn(bodyClass);
+            }
+        }
+        lastScrollY = st;
+    });
 
-      // fade out
+    // fade out
 
-      function fadeOut(el){
-          el.style.opacity = 1;
+    function fadeOut(el) {
+        el.style.opacity = 1;
 
-          (function fade() {
-              if ((el.style.opacity -= .1) < 0) {
-                  el.style.display = "none";
-              } else {
-                  requestAnimationFrame(fade);
-              }
-          })();
-      }
+        (function fade() {
+            if ((el.style.opacity -= .1) < 0) {
+                el.style.display = "none";
+            } else {
+                requestAnimationFrame(fade);
+            }
+        })();
+    }
 
-      // fade in
+    // fade in
 
-      function fadeIn(el, display){
-          el.style.opacity = 0;
-          el.style.display = display || "block";
+    function fadeIn(el, display) {
+        el.style.opacity = 0;
+        el.style.display = display || "block";
 
-          (function fade() {
-              var val = parseFloat(el.style.opacity);
-              if (!((val += .1) > 1)) {
-                  el.style.opacity = val;
-                  requestAnimationFrame(fade);
-              }
-          })();
-      }
-    </script>
-  
-  </body>
-  
-  </html>
+        (function fade() {
+            var val = parseFloat(el.style.opacity);
+            if (!((val += .1) > 1)) {
+                el.style.opacity = val;
+                requestAnimationFrame(fade);
+            }
+        })();
+    }
+</script>
+
+</body>
+
+</html>
