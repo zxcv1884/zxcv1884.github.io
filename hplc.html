@@ -56,209 +56,210 @@
     <script src="https://unpkg.com/i18next/i18next.js"></script>
   
   </head>
-  
+  <style>html{scroll-behavior:smooth}</style>
+
   <body>
     <main>
       <!-- Header -->
-      <header id="js-header" class="u-header u-header--static">
-        <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
-          <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
-            <div class="container">
-              <!-- Responsive Toggle Button -->
-              <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
-                <span class="hamburger hamburger--slider">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-                </span>
-                </span>
-              </button>
-              <!-- End Responsive Toggle Button -->
-  
-              <!-- Logo -->
-              <a href="index.html" class="navbar-brand d-flex">
-                  <img width="46px" height="46px" src="assets/img/favicon.png">
-                  <h1 id="test1" class="g-font-weight-200"></h1> 
-              </a>
-                <!-- End Logo -->
-  
-              <!-- Navigation -->
-              <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
-                <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
-                  <!-- Home -->
-                  <li class="nav-item  g-mx-10--lg g-mx-15--xl">
-                    <a id="nav1" href="index.html" class="nav-link g-py-7 g-px-0"></a>
-                  </li>
-                  <!-- End Home -->
-  
-                  <!-- Peptides -->
-                  <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                    <a id="nav2-1" href="peptides.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-  
-                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-                      <!-- Peptides - Commercial -->
-                      <li class="dropdown-item ">
-                        <a id="nav2-3" class="nav-link" href="peptides.html"></a>
-                      </li>
-                      <!-- End Peptides - Commercial -->
-                      <!-- Peptides - Clinical -->
-                      <li class="dropdown-item ">
-                        <a id="nav2-4" class="nav-link" href="peptides.html"></a>
-                      </li>
-                      <!-- End Peptides - Clinical -->
-                      <!-- Peptides -  custom-->
-                      <li class="dropdown-item ">
-                        <a id="nav2-5" class="nav-link" href="peptides.html"></a>
-                      </li>
-                      <!-- End Peptides - custom -->
-  
-                      <!-- Peptides -  pet-->
-                      <li class="dropdown-item ">
-                        <a id="nav2-6" class="nav-link" href="peptides.html"></a>
-                      </li>
-                      <!-- End Peptides - pet -->
-  
-                      <!-- Peptides -  cosmetic-->
-                      <li class="dropdown-item ">
-                        <a id="nav2-7" class="nav-link" href="peptides.html"></a>
-                      </li>
-                      <!-- End Peptides - cosmetic -->
-  
-                    </ul>
-                  </li>
-                  <!-- End Peptides -->
-   <!-- Peptide Synthesizer -->
-   <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-      <a id="nav3-1" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-  
-      <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-        
-        <!-- Peptide Synthesizer - 136 -->
-        <li class="dropdown-item ">
-          <a id="nav3-2" class="nav-link" href="synthesizer.html#cs136"></a>
-        </li>
-        <!-- End Features - Peptide Synthesizer - 136 -->
-        <!-- Peptide Synthesizer - 336 -->
-        <li class="dropdown-item ">
-          <a id="nav3-3" class="nav-link" href="synthesizer.html#cs336"></a>
-        </li>
-        <!-- End Features - Peptide Synthesizer - 336 -->
-        <!-- Peptide Synthesizer - 536 -->
-        <li class="dropdown-item ">
-          <a id="nav3-4" class="nav-link" href="synthesizer.html#cs536"></a>
-        </li>
-        <!-- End Features - Peptide Synthesizer - 536 -->
-  
-        <!-- Peptide Synthesizer - 536 -->
-        <li class="dropdown-item ">
-          <a id="nav3-5" class="nav-link" href="synthesizer.html#cs536"></a>
-        </li>
-        <!-- End Features - Peptide Synthesizer - 536 -->
-       </ul>
-    </li>
-    <!-- End Features -->
-  
-  
-       <!-- HPLC -->
-   <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-    <a id="nav4-1" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-  
-    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-      
-      <!-- Peptide Synthesizer - 136 -->
-      <li class="dropdown-item ">
-        <a id="nav4-2" class="nav-link" href="hplc.html"></a>
-      </li>
-      <!-- End Features - Peptide Synthesizer - 136 -->
-      <!-- Peptide Synthesizer - 336 -->
-      <li class="dropdown-item ">
-        <a id="nav4-3" class="nav-link" href="hplc.html"></a>
-      </li>
-      <!-- End Features - Peptide Synthesizer - 336 -->
-      <!-- Peptide Synthesizer - 536 -->
-      <li class="dropdown-item ">
-        <a id="nav4-4" class="nav-link" href="hplc.html"></a>
-      </li>
-      <!-- End Features - Peptide Synthesizer - 536 -->
-  
-    </ul>
-  
-  </li>
-  <!-- End HPLC -->
-  
-  
-                  <!-- Peptide Reagents -->
-                   <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                    <a id="nav5-1" href="peptidereagent.html" id="nav-link--features" class="nav-link g-py-7 g-px-0"  aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-                  </li>
-                  <!-- Peptide Reagents -->
-  
-                  <!-- QUALITY MANAGEMENT  -->
-                  <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                    <a id="nav6-1" href="qualitymanagement.html" id="nav-link--features" class="nav-link g-py-7 g-px-0"  aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-                  </li>
-                  <!-- QUALITY MANAGEMENT  -->
-  
-                  <!-- agent -->
-                  <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                    <a id="nav8-1" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-  
-                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-                      <!-- Peptides - Commercial -->
-                      <li class="dropdown-item ">
-                        <a id="nav2-8" class="nav-link" href="peptidesinstitude.html"></a>
-                      </li>
-                      <!-- agent -->
-  
-  
-  
-  
-  
-  
-  
-                    </ul>
-                  </li>
-                  <!-- End Peptides -->
-  
-                   <!-- Contact -->
-                   <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
-                    <a id="nav7-1" class="nav-link g-py-7 g-px-0" href="#!" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
-  
-                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
-                      
-                      <!-- Contact - Offices -->
-                      <li class="dropdown-item ">
-                        <a id="nav7-2"  class="nav-link" href="offices.html"></a>
-                      </li>
-                      <!-- End Features - Offices -->
-                      <!-- Features - Careers -->
-                      <li class="dropdown-item ">
-                        <a class="nav-link" href="careers.html">Careers</a>
-                      </li>
-                      <!-- End Features - Careers -->
-  
-                    </ul>
-                  </li>
-                  <!-- End Contact -->
-  
-                </ul>
-  
-  
-              </div>
-              <!-- End Navigation -->
+        <header id="js-header" class="u-header u-header--static">
+            <div class="u-header__section u-header__section--light g-bg-white g-transition-0_3 g-py-10">
+                <nav class="js-mega-menu navbar navbar-expand-lg hs-menu-initialized hs-menu-horizontal">
+                    <div class="container">
+                        <!-- Responsive Toggle Button -->
+                        <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-minus-3 g-right-0" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+              <span class="hamburger hamburger--slider">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+              </span>
+              </span>
+                        </button>
+                        <!-- End Responsive Toggle Button -->
+
+                        <!-- Logo -->
+                        <a href="index.html" class="navbar-brand d-flex">
+                            <img width="46px" height="46px" src="assets/img/favicon.png">
+                            <h1 id="test1" class="g-font-weight-200"></h1>
+                        </a>
+                        <!-- End Logo -->
+
+                        <!-- Navigation -->
+                        <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
+                            <ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+                                <!-- Home -->
+                                <li class="nav-item  g-mx-10--lg g-mx-15--xl">
+                                    <a id="nav1" href="index.html" class="nav-link g-py-7 g-px-0"></a>
+                                </li>
+                                <!-- End Home -->
+
+                                <!-- Peptides -->
+                                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                    <a id="nav2-1" href="peptides.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+
+                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+                                        <!-- Peptides - Commercial -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav2-2" class="nav-link" href="peptides.html#gmp"></a>
+                                        </li>
+                                        <li class="dropdown-item ">
+                                            <a id="nav2-3" class="nav-link" href="peptides.html#commercial"></a>
+                                        </li>
+                                        <!-- End Peptides - Commercial -->
+                                        <!-- Peptides - Clinical -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav2-4" class="nav-link" href="peptides.html#clinical"></a>
+                                        </li>
+                                        <!-- End Peptides - Clinical -->
+                                        <!-- Peptides -  custom-->
+                                        <li class="dropdown-item ">
+                                            <a id="nav2-5" class="nav-link" href="peptides.html#custom"></a>
+                                        </li>
+                                        <!-- End Peptides - custom -->
+
+                                        <!-- Peptides -  pet-->
+                                        <li class="dropdown-item ">
+                                            <a id="nav2-6" class="nav-link" href="peptides.html#analytical"></a>
+                                        </li>
+                                        <!-- End Peptides - pet -->
+
+                                        <!-- Peptides -  cosmetic-->
+                                        <li class="dropdown-item ">
+                                            <a id="nav2-7" class="nav-link" href="peptides.html#custompet"></a>
+                                        </li>
+                                        <!-- End Peptides - cosmetic -->
+
+                                    </ul>
+                                </li>
+                                <!-- End Peptides -->
+                                <!-- Peptide Synthesizer -->
+                                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                    <a id="nav3-1" href="synthesizer.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+
+                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+
+                                        <!-- Peptide Synthesizer - 136 -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav3-2" class="nav-link" href="synthesizer.html#cs136"></a>
+                                        </li>
+                                        <!-- End Features - Peptide Synthesizer - 136 -->
+                                        <!-- Peptide Synthesizer - 336 -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav3-3" class="nav-link" href="synthesizer.html#cs336"></a>
+                                        </li>
+                                        <!-- End Features - Peptide Synthesizer - 336 -->
+                                        <!-- Peptide Synthesizer - 536 -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav3-4" class="nav-link" href="synthesizer.html#cs536"></a>
+                                        </li>
+                                        <!-- End Features - Peptide Synthesizer - 536 -->
+
+                                        <!-- Peptide Synthesizer - 636 -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav3-5" class="nav-link" href="synthesizer.html#cs536-1"></a>
+                                        </li>
+                                        <!-- End Features - Peptide Synthesizer - 636 -->
+                                    </ul>
+                                </li>
+                                <!-- End Features -->
+
+
+                                <!-- HPLC -->
+                                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                    <a id="nav4-1" href="hplc.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+
+                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+
+                                        <!-- semi -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav4-2" class="nav-link" href="hplc.html#commercial"></a>
+                                        </li>
+                                        <!-- semi -->
+                                        <!-- Peptide Synthesizer - 336 -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav4-3" class="nav-link" href="hplc.html#clinical"></a>
+                                        </li>
+                                        <!-- End Features - Peptide Synthesizer - 336 -->
+                                        <!-- Peptide Synthesizer - 536 -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav4-4" class="nav-link" href="hplc.html#custom"></a>
+                                        </li>
+                                        <!-- End Features - Peptide Synthesizer - 536 -->
+
+                                    </ul>
+
+                                </li>
+                                <!-- End HPLC -->
+
+
+                                <!-- Peptide Reagents -->
+                                <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                    <a id="nav5-1" href="peptidereagent.html" id="nav-link--features" class="nav-link g-py-7 g-px-0"  aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+                                </li>
+                                <!-- Peptide Reagents -->
+
+                                <!-- QUALITY MANAGEMENT  -->
+                                <li class="nav-item g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                    <a id="nav6-1" href="qualitymanagement.html" id="nav-link--features" class="nav-link g-py-7 g-px-0"  aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+                                </li>
+                                <!-- QUALITY MANAGEMENT  -->
+
+                                <!-- agent -->
+                                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                    <a id="nav8-1" href="peptidesinstitude.html" class="nav-link g-py-7 g-px-0" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+
+                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+                                        <!-- Peptides - Commercial -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav2-8" class="nav-link" href="peptidesinstitude.html"></a>
+                                        </li>
+                                        <!-- End Peptides - Commercial -->
+                                    </ul>
+                                </li>
+                                <!-- agent -->
+
+                                <!-- Contact -->
+                                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                    <a id="nav7-1" href="offices.html" class="nav-link g-py-7 g-px-0" href="#!" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features"></a>
+
+                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+
+                                        <!-- Contact - Offices -->
+                                        <li class="dropdown-item ">
+                                            <a id="nav7-2"  class="nav-link" href="offices.html"></a>
+                                        </li>
+                                        <!-- End Features - Offices -->
+                                        <!-- Features - Careers -->
+                                        <li class="dropdown-item ">
+                                            <a class="nav-link" href="careers.html">Careers</a>
+                                        </li>
+                                        <!-- End Features - Careers -->
+
+                                    </ul>
+                                </li>
+                                <!-- End Contact -->
+
+                            </ul>
+
+
+                        </div>
+                        <!-- End Navigation -->
+                    </div>
+
+                    <a onclick="i18next.changeLanguage('zh')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
+                        中文版
+                    </a>
+                    <a onclick="i18next.changeLanguage('en')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
+                        English
+                    </a>
+                    &nbsp &nbsp
+                </nav>
             </div>
-  
-            <a onclick="i18next.changeLanguage('zh')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
-                中文版
-                </a>
-            <a onclick="i18next.changeLanguage('en')" class="btn btn-xs u-btn-inset u-btn-outline-blue g-mr-10 g-mb-15">
-              English
-            </a>
-            &nbsp &nbsp
-          </nav>
-        </div>
-      </header>
+        </header>
       <!-- End Header -->
-  
+        <a href="#" class="backtotop" id="backtotop" style="display: none" >
+            <div style="line-height: 60px;  text-align: center; outline: none !important; visibility: visible !important; resize: none !important; overflow: hidden !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: pointer !important; float: none !important; pointer-events: auto !important; box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 10px 0px !important; height: 60px !important; min-height: 60px !important; max-height: 60px !important; width: 60px !important; min-width: 60px !important; max-width: 60px !important; border-radius: 50% !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center !important; margin: 0px !important; top: auto !important; bottom: 100px !important; right: 20px !important; left: auto !important; display: block !important;">
+                <img width="30" height="30"  style="display:block;  margin-left: 15px; margin-top: 15px" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMS4xODkgNTExLjE4OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjE4OSA1MTEuMTg5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGcgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgLTEuMjUgMCA0NSkiPgoJPGc+CgkJPGc+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjkxLjg4Ni05MC4zNDhMMjEzLjAxNSwyNS44NzZjLTYuODM4LDEwLjA2OS0xNy43MjcsOS44NjUtMjQuMjAxLTAuNDIxTDExNi4xMS04OS45MjcgICAgIGMtNi40NzQtMTAuMjg2LTIuMDQ4LTE4LjcwNSw5Ljg0Mi0xOC43MDVoMjEuMzExdi00MC4xMThjMC0xMi41NjEsMTAuMTk0LTIyLjc1NiwyMi43NTYtMjIuNzU2aDY4LjI2NyAgICAgYzEyLjU4NCwwLDIyLjc1NiwxMC4xOTQsMjIuNzU2LDIyLjc1NnY0MC4xMThoMjEuNjA2QzI5NC41NDgtMTA4LjYzMiwyOTguNzM1LTEwMC40MTcsMjkxLjg4Ni05MC4zNDgiLz4KCQkJPHBhdGggc3R5bGU9ImZpbGw6IzI5MkYzMzsiIGQ9Ik00MC44OTItMjM0LjkwMkgxNS43MTNDNC42MTktMjM0LjkwMiwwLTIyNi44MDEsMC0yMTguOTYyYzAsOC4wNzgsNS43OCwxNS45MjksMTUuNzEzLDE1LjkyOSAgICAgaDg0Ljk4MWM5Ljk0NCwwLDE1LjcyNC03Ljg1MSwxNS43MjQtMTUuOTI5YzAtNy44MzktNC42MTktMTUuOTQtMTUuNzI0LTE1Ljk0SDc1LjUyNlYtMzUwLjgzICAgICBjMC0xMS41Ni03LjM4NC0xOC4wMjItMTcuMzE3LTE4LjAyMnMtMTcuMzE3LDYuNDYzLTE3LjMxNywxOC4wMjJMNDAuODkyLTIzNC45MDJ6Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjQwLjQ0Ny0yODUuMjQ5YzAsMjcuOTQ0LTE0LjU1Miw1My4xMzQtNDMuNDE4LDUzLjEzNGMtMjguODc3LDAtNDMuNDI5LTI1LjE5LTQzLjQyOS01My4xMzQgICAgIGMwLTI4LjE3MSwxNC4wOTctNTMuMTExLDQzLjQyOS01My4xMTFTMjQwLjQ0Ny0zMTMuNDIsMjQwLjQ0Ny0yODUuMjQ5IE0xMTcuNTc4LTI4NS4yNDljMCw0OC4wMzcsMzIuMzI0LDg1LjAwMyw3OS40NTEsODUuMDAzICAgICBjNDYuNDEsMCw3OS40NC0zOC4xMjcsNzkuNDQtODUuMDAzYzAtNDcuNzk4LTMyLjA5Ny04NS4wMDMtNzkuNDQtODUuMDAzQzE1MC4xNDEtMzcwLjI1MiwxMTcuNTc4LTMzMy4wNDcsMTE3LjU3OC0yODUuMjQ5Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMzI1LjU4Ni0yODIuNDczaDIzLjU2M2MxNC41NDEsMCwyMy43NjgsMTAuNjI3LDIzLjc2OCwyNC40NzQgICAgIGMwLDEzLjg3LTkuMjI3LDI0LjQ5Ni0yMy43NjgsMjQuNDk2aC0yMy41NjNWLTI4Mi40NzN6IE0yOTAuOTMtMjIxLjA0NGMwLDEwLjg2Niw2LjQ3NCwxOCwxOC4wMzQsMThoNDAuODU4ICAgICBjMzMuOTYzLDAsNTkuMTMtMjIuMTUzLDU5LjEzLTU1LjE4MmMwLTMzLjcxMi0yNi4wODktNTQuNzM4LTU3LjczMS01NC43MzhoLTI1LjYzNHYtMzcuODc3YzAtMTEuNTQ4LTcuMzg0LTE4LjAyMi0xNy4zMDYtMTguMDIyICAgICBjLTkuOTU2LDAtMTcuMzUxLDYuNDc0LTE3LjM1MSwxOC4wMjJWLTIyMS4wNDR6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+            </div>
+        </a>
   
   
   
@@ -636,7 +637,7 @@
 
                 "nav2-1": "多肽",
                 "nav2-11": "多肽",
-
+                  "nav2-2": "GMP生产多肽",
                 "nav2-3": "商业化多肽",
                 "nav2-4": "临床多肽",
                 "nav2-5": "客户定制多肽",
@@ -701,7 +702,7 @@
 
                 "nav2-1": "Peptides",
                 "nav2-11": "Peptides",
-
+                  "nav2-2": "GMP",
                 "nav2-3": "Commercial",
                 "nav2-4": "Clinical",
                 "nav2-5": "Custom",
@@ -769,6 +770,7 @@
 
           //peptide
           document.getElementById('nav2-1').innerHTML = i18next.t('nav2-1');
+            document.getElementById('nav2-2').innerHTML = i18next.t('nav2-2');
           document.getElementById('nav2-3').innerHTML = i18next.t('nav2-3');
           document.getElementById('nav2-4').innerHTML = i18next.t('nav2-4');
           document.getElementById('nav2-5').innerHTML = i18next.t('nav2-5');
@@ -824,7 +826,53 @@
         i18next.on('languageChanged', () => {
           updateContent();
         });
+    //backtotop
 
+    var bodyClass = document.getElementById('backtotop'),
+        lastScrollY = 0;
+    window.addEventListener('scroll', function(){
+        var st = this.scrollY;
+        // 判斷是向上捲動，而且捲軸超過 200px
+        if( st < 600) {
+            if(bodyClass.style.display !== 'none'){
+                fadeOut(bodyClass);
+            }
+        }else{
+            if(bodyClass.style.display !== 'block'){
+                fadeIn(bodyClass);
+            }
+        }
+        lastScrollY = st;
+    });
+
+    // fade out
+
+    function fadeOut(el){
+        el.style.opacity = 1;
+
+        (function fade() {
+            if ((el.style.opacity -= .1) < 0) {
+                el.style.display = "none";
+            } else {
+                requestAnimationFrame(fade);
+            }
+        })();
+    }
+
+    // fade in
+
+    function fadeIn(el, display){
+        el.style.opacity = 0;
+        el.style.display = display || "block";
+
+        (function fade() {
+            var val = parseFloat(el.style.opacity);
+            if (!((val += .1) > 1)) {
+                el.style.opacity = val;
+                requestAnimationFrame(fade);
+            }
+        })();
+    }
   </script>
 
 </body>
