@@ -13,6 +13,8 @@
     })();
 </script>
 <!--End of Tawk.to Script-->
+
+
 <head>
     <!-- Title -->
     <title>CSBio Home</title>
@@ -20,7 +22,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <!-- Google Fonts -->
@@ -58,6 +62,7 @@
 </head>
 <style>
     html{
+        overflow-x: hidden;
         scroll-behavior:smooth;
         -webkit-overflow-scrolling: touch;
     }
@@ -342,7 +347,7 @@
 
 
     <!-- GMP Portfolio Single Item -->
-    <section id="gmp" class="g-bg-gray-light-v5 g-py-20">
+    <section id="gmp" data-aos="fade-right" class="g-bg-gray-light-v5 g-py-20">
         <div class="container">
             <div class="row g-mb-20">
                 <div class="col-lg-5 g-mb-30 text-center">
@@ -367,7 +372,7 @@
     <!-- End GMP Portfolio Single Item -->
 
     <!-- Commercial Portfolio Single Item -->
-    <section id="commercial" class="g-py-20 ">
+    <section data-aos="fade-left" id="commercial" class="g-py-20 ">
         <div class="container">
             <div class="row g-mb-20">
                 <div class="col-lg-7 g-mb-30">
@@ -397,7 +402,7 @@
 
 
     <!-- Clinical Portfolio Single Item -->
-    <section id="clinical" class="g-bg-gray-light-v5 g-py-20">
+    <section id="clinical" data-aos="fade-right" class="g-bg-gray-light-v5 g-py-20">
         <div class="container">
             <div class="row g-mb-20">
                 <div class="col-lg-5 g-mb-30 text-center">
@@ -423,7 +428,7 @@
 
 
     <!-- Custom Portfolio Single Item -->
-    <section id="custom" class="g-py-20">
+    <section id="custom" data-aos="fade-left" class="g-py-20">
         <div class="container">
             <div class="row g-mb-20">
                 <div class="col-lg-7 g-mb-30">
@@ -451,7 +456,7 @@
 
 
     <!-- Analytical Portfolio Single Item -->
-    <section id="analytical" class="g-py-20 g-bg-gray-light-v5">
+    <section id="analytical" data-aos="fade-right" class="g-py-20 g-bg-gray-light-v5">
         <div class="container">
             <div class="row g-mb-20">
                 <div class="col-lg-5 g-mb-30">
@@ -478,7 +483,7 @@
 
 
     <!-- Custom Portfolio Single Item -->
-    <section id="custompet" class="g-py-20 g-bg-gray-light-v5">
+    <section id="custompet" data-aos="fade-left" class="g-py-20 g-bg-gray-light-v5">
         <div class="container">
             <div class="row g-mb-20">
                 <div class="col-lg-7 g-mb-30">
@@ -1119,7 +1124,12 @@
         })();
     }
 </script>
-
+<script>
+    AOS.init({
+        duration: 1400,
+        once: true
+    })
+</script>
 </body>
 
 </html>

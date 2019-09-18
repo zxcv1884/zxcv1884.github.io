@@ -22,7 +22,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-  
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
     <!-- Google Fonts -->
@@ -60,6 +63,7 @@
   </head>
   <style>
       html{
+          overflow-x: hidden;
           scroll-behavior:smooth;
           -webkit-overflow-scrolling: touch;
       }
@@ -319,7 +323,7 @@
   
   
          <!-- 136 Portfolio Single Item -->
-         <section id="cs136" class="g-py-20 g-bg-gray-light-v5">
+         <section id="cs136" data-aos="fade-right" class="g-py-20 g-bg-gray-light-v5">
             <div class="container">
                 <div class="row g-mb-10">
                     <div class="col-lg-5 g-mb-10">
@@ -342,7 +346,7 @@
         
         
          <!-- 336 Portfolio Single Item -->
-         <section id="cs336" class=" g-py-20">
+         <section id="cs336" data-aos="fade-left" class=" g-py-20">
             <div class="container">
                 <div class="row g-mb-10">
                     <div class="col-lg-7 g-mb-10">
@@ -365,7 +369,7 @@
         
         
            <!-- 536 Portfolio Single Item -->
-         <section id="cs536" class="g-py-20 g-bg-gray-light-v5">
+         <section id="cs536" data-aos="fade-right" class="g-py-20 g-bg-gray-light-v5">
             <div class="container">
                 <div class="row g-mb-10">
                     <div class="col-lg-5 g-mb-10">
@@ -387,7 +391,7 @@
 
 
                       <!-- cleavage system -->
-         <section id="cs536-1" class=" g-py-20">
+         <section id="cs536-1" data-aos="fade-left" class=" g-py-20">
           <div class="container">
               <div class="row g-mb-10">
                   <div class="col-lg-7 g-mb-10">
@@ -928,7 +932,12 @@
       }
 
     </script>
-  
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: true,
+        })
+    </script>
   </body>
   
   </html>
