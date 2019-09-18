@@ -40,7 +40,8 @@
 
 </head>
 <style>
-    html{
+    html,body{
+        overflow-x: hidden;
         scroll-behavior:smooth;
         -webkit-overflow-scrolling: touch;
     }
@@ -297,7 +298,7 @@
         </div>
     </header>
     <!-- End Header -->
-    <a href="#" class="backtotop" id="backtotop" style="display: none">
+    <a  class="backtotop" id="backtotop" style="display: none">
         <div id="backtotopstyle" style="line-height: 60px;  text-align: center; outline: none !important; visibility: visible !important; resize: none !important; overflow: hidden !important; background: none transparent !important; opacity: 1 !important; position: fixed !important; border: 0px !important; padding: 0px !important; transition-property: none !important; z-index: 1000001 !important; cursor: pointer !important; float: none !important; pointer-events: auto !important; box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 10px 0px !important; height: 60px !important; min-height: 60px !important; max-height: 60px !important; width: 60px !important; min-width: 60px !important; max-width: 60px !important; border-radius: 50% !important; transform: rotate(0deg) translateZ(0px) !important; transform-origin: 0px center !important; margin: 0px !important; top: auto !important; bottom: 100px !important; right: 20px !important; left: auto !important; display: block !important;">
             <img width="30" height="30" style="display:block;  margin-left: 15px; margin-top: 15px"
                  src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMS4xODkgNTExLjE4OSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTExLjE4OSA1MTEuMTg5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGcgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgLTEuMjUgMCA0NSkiPgoJPGc+CgkJPGc+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjkxLjg4Ni05MC4zNDhMMjEzLjAxNSwyNS44NzZjLTYuODM4LDEwLjA2OS0xNy43MjcsOS44NjUtMjQuMjAxLTAuNDIxTDExNi4xMS04OS45MjcgICAgIGMtNi40NzQtMTAuMjg2LTIuMDQ4LTE4LjcwNSw5Ljg0Mi0xOC43MDVoMjEuMzExdi00MC4xMThjMC0xMi41NjEsMTAuMTk0LTIyLjc1NiwyMi43NTYtMjIuNzU2aDY4LjI2NyAgICAgYzEyLjU4NCwwLDIyLjc1NiwxMC4xOTQsMjIuNzU2LDIyLjc1NnY0MC4xMThoMjEuNjA2QzI5NC41NDgtMTA4LjYzMiwyOTguNzM1LTEwMC40MTcsMjkxLjg4Ni05MC4zNDgiLz4KCQkJPHBhdGggc3R5bGU9ImZpbGw6IzI5MkYzMzsiIGQ9Ik00MC44OTItMjM0LjkwMkgxNS43MTNDNC42MTktMjM0LjkwMiwwLTIyNi44MDEsMC0yMTguOTYyYzAsOC4wNzgsNS43OCwxNS45MjksMTUuNzEzLDE1LjkyOSAgICAgaDg0Ljk4MWM5Ljk0NCwwLDE1LjcyNC03Ljg1MSwxNS43MjQtMTUuOTI5YzAtNy44MzktNC42MTktMTUuOTQtMTUuNzI0LTE1Ljk0SDc1LjUyNlYtMzUwLjgzICAgICBjMC0xMS41Ni03LjM4NC0xOC4wMjItMTcuMzE3LTE4LjAyMnMtMTcuMzE3LDYuNDYzLTE3LjMxNywxOC4wMjJMNDAuODkyLTIzNC45MDJ6Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMjQwLjQ0Ny0yODUuMjQ5YzAsMjcuOTQ0LTE0LjU1Miw1My4xMzQtNDMuNDE4LDUzLjEzNGMtMjguODc3LDAtNDMuNDI5LTI1LjE5LTQzLjQyOS01My4xMzQgICAgIGMwLTI4LjE3MSwxNC4wOTctNTMuMTExLDQzLjQyOS01My4xMTFTMjQwLjQ0Ny0zMTMuNDIsMjQwLjQ0Ny0yODUuMjQ5IE0xMTcuNTc4LTI4NS4yNDljMCw0OC4wMzcsMzIuMzI0LDg1LjAwMyw3OS40NTEsODUuMDAzICAgICBjNDYuNDEsMCw3OS40NC0zOC4xMjcsNzkuNDQtODUuMDAzYzAtNDcuNzk4LTMyLjA5Ny04NS4wMDMtNzkuNDQtODUuMDAzQzE1MC4xNDEtMzcwLjI1MiwxMTcuNTc4LTMzMy4wNDcsMTE3LjU3OC0yODUuMjQ5Ii8+CgkJCTxwYXRoIHN0eWxlPSJmaWxsOiMyOTJGMzM7IiBkPSJNMzI1LjU4Ni0yODIuNDczaDIzLjU2M2MxNC41NDEsMCwyMy43NjgsMTAuNjI3LDIzLjc2OCwyNC40NzQgICAgIGMwLDEzLjg3LTkuMjI3LDI0LjQ5Ni0yMy43NjgsMjQuNDk2aC0yMy41NjNWLTI4Mi40NzN6IE0yOTAuOTMtMjIxLjA0NGMwLDEwLjg2Niw2LjQ3NCwxOCwxOC4wMzQsMThoNDAuODU4ICAgICBjMzMuOTYzLDAsNTkuMTMtMjIuMTUzLDU5LjEzLTU1LjE4MmMwLTMzLjcxMi0yNi4wODktNTQuNzM4LTU3LjczMS01NC43MzhoLTI1LjYzNHYtMzcuODc3YzAtMTEuNTQ4LTcuMzg0LTE4LjAyMi0xNy4zMDYtMTguMDIyICAgICBjLTkuOTU2LDAtMTcuMzUxLDYuNDc0LTE3LjM1MSwxOC4wMjJWLTIyMS4wNDR6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="/>
@@ -825,7 +826,9 @@
         }
         lastScrollY = st;
     });
-
+    $('.backtotop').click(function(){
+        $('html, body').animate({scrollTop:0},'normal','linear');
+    });
     // fade out
 
     function fadeOut(el) {
